@@ -18,13 +18,15 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": "./dist/leaflet-locatecontrol.mjs",
+      "require": "./dist/leaflet-locatecontrol.cjs"
     },
     "./*": "./*"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "unpkg": "./dist/index.iife.min.js",
-  "dependencies": {}
+  "main": "./dist/leaflet-locatecontrol.cjs",
+  "module": "./dist/leaflet-locatecontrol.mjs",
+  "unpkg": "./dist/leaflet-locatecontrol.iife.min.js",
+  "devDependencies": {
+    "leaflet.locatecontrol": "^0.79.0"
+  }
 }

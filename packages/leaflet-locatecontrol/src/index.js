@@ -1,3 +1,2 @@
-const a = 1;
-
-console.log(a);
+import 'leaflet.locatecontrol/dist/L.Control.Locate.css';
+import 'leaflet.locatecontrol';
