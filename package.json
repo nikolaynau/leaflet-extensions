@@ -19,7 +19,7 @@
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
     "release": "esno scripts/release.ts",
-    "postversion": "npm run pack --workspaces",
+    "postversion": "npm pack --workspaces",
     "push": "git push origin master --tags",
     "husky": "husky install"
   },
