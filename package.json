@@ -1,6 +1,6 @@
 {
   "name": "@leaflet-extensions/monorepo",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "private": true,
   "description": "Collection of Extensions for Leaflet.js",
   "author": "Nikolay Naumenkov<https://github.com/nikolaynau>",
@@ -19,7 +19,7 @@
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache --fix .",
     "release": "esno scripts/release.ts",
-    "postversion": "npm pack --workspaces",
+    "postversion": "npm run push",
     "push": "git push origin master --tags",
     "husky": "husky install"
   },
