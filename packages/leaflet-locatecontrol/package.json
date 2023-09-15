@@ -1,6 +1,6 @@
 {
   "name": "@leaflet-extensions/locatecontrol",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A useful control to geolocate the user with many options. Used by osm.org and mapbox among many others.",
   "author": "Nikolay Naumenkov<https://github.com/nikolaynau>",
   "license": "MIT",
