@@ -7,7 +7,7 @@ execSync(`npm version --workspaces --git-tag-version=false ${mode}`, {
 });
 
 execSync(
-  'git add packages/* && git commit -m "build: update workspace versions"',
+  'git add package-lock.json packages/* && git commit -m "build: update workspace versions"',
   { stdio: 'inherit' }
 );
 
