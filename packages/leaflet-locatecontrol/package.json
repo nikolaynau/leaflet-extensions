@@ -26,6 +26,9 @@
   "main": "./dist/leaflet-locatecontrol.cjs",
   "module": "./dist/leaflet-locatecontrol.mjs",
   "unpkg": "./dist/leaflet-locatecontrol.iife.min.js",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "leaflet.locatecontrol": "^0.79.0"
   }
