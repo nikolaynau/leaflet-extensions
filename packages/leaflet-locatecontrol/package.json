@@ -1,0 +1,30 @@
+{
+  "name": "@leaflet-extensions/locatecontrol",
+  "version": "0.0.0",
+  "description": "A useful control to geolocate the user with many options. Used by osm.org and mapbox among many others.",
+  "author": "Nikolay Naumenkov<https://github.com/nikolaynau>",
+  "license": "MIT",
+  "homepage": "https://github.com/nikolaynau/leaflet-extensions#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaynau/leaflet-extensions.git",
+    "directory": "packages/leaflet-locatecontrol"
+  },
+  "bugs": {
+    "url": "https://github.com/nikolaynau/leaflet-extensions/issues"
+  },
+  "keywords": [
+    "leaflet"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "unpkg": "./dist/index.iife.min.js",
+  "dependencies": {}
+}
