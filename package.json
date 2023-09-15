@@ -1,6 +1,6 @@
 {
   "name": "@leaflet-extensions/monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Collection of Extensions for Leaflet.js",
   "author": "Nikolay Naumenkov<https://github.com/nikolaynau>",
