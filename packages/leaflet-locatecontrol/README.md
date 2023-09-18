@@ -2,7 +2,7 @@
 
 This is a package created from [leaflet.locatecontrol](https://github.com/domoritz/leaflet-locatecontrol).
 
-[Documentation & Demo](https://github.com/domoritz/leaflet-locatecontrol)
+[Documentation & Demo](https://github.com/domoritz/leaflet-locatecontrol#readme)
 
 ## License
 
