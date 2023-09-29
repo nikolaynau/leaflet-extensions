@@ -9,15 +9,15 @@
     "packages/*"
   ],
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,cjs,mjs,css,md}": "prettier --write"
   },
   "scripts": {
     "build": "npm run clean && npm run build:rollup",
     "build:rollup": "rollup --config=rollup.config.mjs",
     "clean": "rimraf --glob \"packages/*/dist\"",
-    "format": "prettier --write .",
-    "lint": "eslint --cache .",
-    "lint:fix": "eslint --cache --fix .",
+    "format": "prettier --write \"packages/**/*.{js,cjs,mjs,css,md}\"",
+    "lint": "eslint --ext .js,.cjs,.mjs --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
     "release": "esno scripts/release.ts",
     "postversion": "npm run push",
     "push": "git push origin master --tags",
